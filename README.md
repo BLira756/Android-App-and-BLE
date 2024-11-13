@@ -12,7 +12,7 @@ Profesor: Huetzin Aaron Pérez Olivas
 
 Descripción del proyecto:
 
-El objetivo de esta práctica es desarrollar un sistema de monitoreo que permita medir la inclinación y la temperatura de un dispositivo mediante un ESP32, usando sensores MPU6050 y BMP280, y enviar los datos recolectados a una aplicación en un dispositivo Android a través de Bluetooth de Baja Energía (BLE). Adicionalmente, el sistema implementa un modo de bajo consumo de energía (modo "deep sleep") que puede ser activado mediante un botón.
+El objetivo de esta proyecto es desarrollar un sistema de monitoreo que permita medir la inclinación y la temperatura de un dispositivo mediante un ESP32, usando sensores MPU6050 y BMP280, y enviar los datos recolectados a una aplicación en un dispositivo Android a través de Bluetooth de Baja Energía (BLE). Adicionalmente, el sistema implementa un modo de bajo consumo de energía (modo "deep sleep") que puede ser activado mediante un botón.
 
 
 Introducción
