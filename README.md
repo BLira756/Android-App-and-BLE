@@ -12,6 +12,9 @@ Profesor: Huetzin Aaron Pérez Olivas
 
 Descripción del proyecto:
 
+El objetivo de esta práctica es desarrollar un sistema de monitoreo que permita medir la inclinación y la temperatura de un dispositivo mediante un ESP32, usando sensores MPU6050 y BMP280, y enviar los datos recolectados a una aplicación en un dispositivo Android a través de Bluetooth de Baja Energía (BLE). Adicionalmente, el sistema implementa un modo de bajo consumo de energía (modo "deep sleep") que puede ser activado mediante un botón.
+
+
 Introducción
 
 La función Bluetooth es una tecnología de comunicación inalámbrica que puede ser usada para transmisión de datos de corto alcance de un dispositivo digital a otro. Bluetooth es esencialmente una conexión inalámbrica uno a uno que usa ondas de radio de banda de 2,4 GHz.
