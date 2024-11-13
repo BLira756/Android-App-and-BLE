@@ -37,3 +37,21 @@ Diseñador de Interfaz Gráfica: Incluye un editor visual para diseñar las inte
 Compatibilidad con múltiples dispositivos y versiones de Android: Permite crear aplicaciones que funcionen en distintos tipos de dispositivos y versiones de Android.
 
 Gestión de dependencias: Utiliza Gradle como sistema de compilación para gestionar dependencias y construir la aplicación.
+
+Deep sleep
+
+El deep sleep (sueño profundo) es un modo de bajo consumo de energía en el microcontrolador ESP32, diseñado para reducir al mínimo el consumo eléctrico mientras el dispositivo está inactivo. Este modo es ideal para aplicaciones que necesitan prolongar la duración de la batería, como dispositivos IoT (Internet de las cosas) que pasan mucho tiempo inactivos y solo se activan de forma periódica para realizar tareas específicas, como tomar una medición o enviar datos.
+
+Algunas características clave del modo deep sleep en el ESP32 incluyen:
+
+Desactivación de la CPU: Durante el deep sleep, la CPU y la mayoría de los componentes del sistema están apagados, lo que reduce considerablemente el consumo de energía.
+
+Uso de memoria RTC: El ESP32 mantiene una pequeña porción de su memoria RTC (Real-Time Clock) activa, lo que permite almacenar datos que estarán disponibles al despertar. Esto es útil para conservar variables o estados importantes.
+
+Periféricos en bajo consumo: En este modo, solo ciertos periféricos pueden permanecer activos, como el reloj en tiempo real, los temporizadores de baja potencia, o algunos pines de entrada/salida que pueden generar una señal de activación.
+
+Métodos de activación (wake-up): El ESP32 puede salir del modo deep sleep usando diversos métodos de activación, como temporizadores (para despertar después de un tiempo determinado), el cambio de estado de pines específicos, o señales externas, como un botón o sensor.
+
+Consumo de energía mínimo: Este modo permite reducir el consumo hasta unos pocos microamperios, lo que resulta extremadamente bajo en comparación con los modos de funcionamiento normal.
+
+En el modo deep sleep, el ESP32 está inactivo hasta que una condición específica de activación lo "despierta". Al reactivarse, el microcontrolador puede retomar sus funciones con un consumo de energía normal, realizar la tarea necesaria, y luego volver al modo de bajo consumo.
